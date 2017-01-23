@@ -2,6 +2,8 @@ import numpy as np
 import pickle
 from collections import defaultdict
 
+# BGS algorithm: http://ieeexplore.ieee.org/document/4483672/
+
 
 def calc_hamming_distance(t1, m1, t2, m2):
     """Calculate hamming distance between two normalized iris templates.
